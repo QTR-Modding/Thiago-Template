@@ -1,5 +1,5 @@
 #include "Hooks.h"
-#include "stl.h"
+#include "Detour.h"
 
 void Hooks::Install() {
 }

@@ -1,6 +1,6 @@
 #include <detours/detours.h>
 
-namespace stl {
+namespace Detour {
     template <class Func>
     uintptr_t write_prologue_hook(uintptr_t a_src, Func* a_dest) {
         DetourTransactionBegin();
